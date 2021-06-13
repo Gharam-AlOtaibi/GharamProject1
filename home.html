@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>blog wibsite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <div class="top">
+            <div class="row large light-grey">
+                <div class="col s3">
+                    <a href="#" class="w3-button block">Home</a>
+                </div>
+
+                <div class="col s3">
+                    <a href="login.html" class="w3-button block">Login</a>
+                </div>
+
+                <div class="col s3">
+                    <a href="contact.html" class="w3-button block">Contact</a>
+                </div>
+                <div class="col s3">
+                    <a href="about.html" class="w3-button block">About</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+            <!-- Slideshow -->
+            <div class="w3-container">
+                <div class="display-container mySlides">
+                    <img src="img1.jpg" style="width:100%">
+                </div>
+
+                <div class="display-container mySlides">
+                    <img src="img2.jpg" style="width:100%">
+                </div>
+
+                <div class="display-container mySlides">
+                    <img src="img3.jpg" style="width:100%">
+                </div>
+                
+                <!-- Slideshow next/previous buttons -->
+                <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+                    <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+                    <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+                    <div class="w3-center">
+                        <span class="tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                        <span class="tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                        <span class="tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    </div>
+                </div>
+
+                <script src="func.js">
+                    // Slideshow
+                </script>
+            </div>
+            
+            <div class="w3-center w3-padding-64">
+                <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Previous blogs</span>
+            </div>
+
+            <div class="row w3-container">
+                
+
+                <div class="col l3 m6 colo w3-container w3-padding-16 hover-shadow" style="background-color: rgb(230, 215, 196);">
+                    <h3>The Five Factors That Achieve Career Success</h3>
+                    <p>During my career of nearly 20 years, which began as a student in university classes...</p>
+                </div>
+
+                <div class="col l3 m6 colo w3-container w3-padding-16 hover-shadow" style="background-color: rgb(226, 203, 174);">
+                    <h3>Marketing Tips: Focus on the value you give to the customer</h3>
+                    <p>One of the marketing tips that I learned from the mistakes of the past is that advertising ...</p>
+                </div>
+
+                <div class="col l3 m6 colo w3-container w3-padding-16 hover-shadow" style="background-color: rgb(226, 195, 154);">
+                    <h3>How to be a productive person? Start fighting...</h3>
+                    <p>How to be a highly productive person? Whether in your personal life or on the business front, you...</p>
+                </div>
+
+                <div class="col l3 colo w3-container w3-padding-16 hover-shadow" style="background-color: burlywood;">
+                    <h3>Task organizer apps to organize your work.. this is my...</h3>
+                    <p>I have to admit that I am fickle between applications, only trello has earned my trust for a...</p>
+                </div>
+            </div>
+            
+            <br><br>
+            
+            <!-- Footer -->
+            <footer class="w3-container w3-padding-32 light-grey w3-center">
+                <a href="#" class="w3-button cancelbtn w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Go to the top</a>
+
+                <div class="w3-xlarge w3-section">
+                    <i class="fa fa-twitter w3-hover-opacity" style="color: #fca7a1;"></i>
+                    <a href="http://linkedin.com/in/gharam-al-otaibi-36654a20a"><i class="fa fa-linkedin w3-hover-opacity" style="color: #fca7a1;"></i></a>
+                </div>
+                
+                <p>By: Gharam Saeed Al-Otaibi</p>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
